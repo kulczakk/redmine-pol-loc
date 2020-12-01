@@ -212,7 +212,7 @@ pl:
   field_phone: Telefon
   field_email: Email
   field_tags: Tagi
-  field_last_note: Ostatnia notatka
+  field_last_note: Data ostatnej notatki
   field_is_company: Jest firmą?
   field_contact_full_name: Pełna nazwa
   button_contacts_edit_query: Edytuj kwerendę
@@ -261,14 +261,14 @@ pl:
 #3.2.0
   label_crm_probability: Prawdopodobieństwo
   label_crm_deal_status_type: Typ statusu
-  label_crm_select_companies: Pokazuj tylko firmy w ofertach
+  label_crm_select_companies: Pokazuj tylko firmy w ofercie
   label_crm_expected_revenue: Spodziewany dochód
   label_crm_deal_due_date: Data oddania
 
   #3.2.2
   label_crm_show_deals_in_top_menu: Pokazuj oferty w górnym menu
   label_crm_show_details: Pokaż szczegóły
-  label_crm_has_deals: Ma przypisane oferty
+  label_crm_has_deals: Ma przypisane oferty?
   label_crm_has_open_issues: Otwarte zagadnienia
   label_crm_note: Notatka
 
