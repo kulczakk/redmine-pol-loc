@@ -8,7 +8,7 @@ pl:
   label_received_from: Otrzymane od
   label_sent_to: Wysłane do
   project_module_contacts_helpdesk: Helpdesk
-  permission_send_response: Wysyłanie odpowiedzi do kontaktu
+  permission_send_response: Wysyłanie odpowiedzi e-mail
   permission_edit_helpdesk_settings: Edycja ustawień Helpdesk
   label_not_create_contacts: Przyjmuj zgłoszenia tylko od istniejących kontaktów
   field_created_contact_tags: Dodaj tagi do kontaktu
@@ -45,14 +45,14 @@ pl:
 #1.0.4
   label_helpdesk_blacklist: Blacklista e-mail
   label_helpdesk_contact_activity: Poprzednie zgłoszenia od tego kontaktu
-  permission_view_helpdesk_tickets: Pokaż zgłoszenia Helpdesk
+  permission_view_helpdesk_tickets: Wyświetlanie zgłoszeń Helpdesk
   label_helpdesk_last_message: Ostatnia wiadomość
   label_helpdesk_enable_modules: Moduły Kontakty oraz Zagadnienia powinny być włączone w tym projekcie
   label_helpdesk_contact: Klient
   label_helpdesk_show_contact_card: Pokaż profile kontaktów
 
 #2.0.0
-  label_helpdesk_send_note_by_default: Wysyłaj e-mail domyślnie
+  label_helpdesk_send_note_by_default: Wysyłaj odpowiedź e-mail domyslnie
   label_helpdesk_ticket_attributes: Atrybuty zgłoszenia
   label_helpdesk_to_address: Na adres
   label_helpdesk_from_address: Z adresu
@@ -64,7 +64,7 @@ pl:
   label_helpdesk_ticket_plural: Zgłoszenia Helpdesk
   label_helpdesk_template: Szablon Helpdesk
   label_helpdesk_general: Główne
-  permission_edit_helpdesk_tickets: Edytuj informacje zgłoszenia
+  permission_edit_helpdesk_tickets: Edycja informacji o zgłoszeniu
 
 #2.1.0
   label_helpdesk_ticket: Zgłoszenie Helpdesk
@@ -101,18 +101,18 @@ pl:
 
 #2.2.0
   label_helpdesk_contact_company: Firma
-  label_helpdesk_canned_response_plural: Odpowiedzi standardowe
-  label_helpdesk_new_canned_response: Nowa odpowiedź standardowa
-  label_helpdesk_canned_response: Odpowiedź standardowa
-  permission_manage_public_canned_responses: Zarządzanie publicznymi standardowymi odpowiedziami
-  permission_manage_canned_responses: Zarządzanie standardowymi odpowiedziami
+  label_helpdesk_canned_response_plural: Odpowiedzi predefiniowane
+  label_helpdesk_new_canned_response: Nowa odpowiedź predefiniowana
+  label_helpdesk_canned_response: Odpowiedź predefiniowana
+  permission_manage_public_canned_responses: Zarządzanie publicznymi odpowiedziami predefinowanymi
+  permission_manage_canned_responses: Zarządzanie odpowiedziami predefiniowanymi
 
 #2.2.1
   my_helpdesk_tickets: Moje zgłoszenia
   label_helpdesk_view_all_tickets: Zobacz wszystkie zgłoszenia
 
 #2.2.3
-  label_helpdesk_tickets_conversation: Konwersacja
+  label_helpdesk_tickets_conversation: Korespondencja
 
 #2.2.4
   label_helpdesk_required_custom_fields_error: Kontakty nie powinny mieć wymaganych pól niestandardowych
@@ -154,22 +154,22 @@ pl:
   text_helpdesk_from_address_cant_be_blank: Adres nadawcy nie może być pusty
 
  #2.4.0
-  label_helpdesk_vote: Vote
-  label_helpdesk_vote_settings: Allow vote
-  label_helpdesk_vote_comment_settings: Allow comment vote
-  label_helpdesk_mark: Please rate our work!
-  label_helpdesk_mark_awesome: Awesome
-  label_helpdesk_mark_justok: Just ok
-  label_helpdesk_mark_notgood: Not good
-  label_helpdesk_vote_comment_placeholder: Leave a comment
-  label_helpdesk_submit: Submit
-  label_helpdesk_vote_thank: Thank you for voting!
-  label_helpdesk_close_page: Close page
-  label_helpdesk_contact_vote: Contact vote
+  label_helpdesk_vote: Głosowanie
+  label_helpdesk_vote_settings: Pozwól głosować
+  label_helpdesk_vote_comment_settings: Pozwól komentować
+  label_helpdesk_mark: Prosimy o ocenę naszej pracy
+  label_helpdesk_mark_awesome: Świetnie
+  label_helpdesk_mark_justok: Przeciętnie
+  label_helpdesk_mark_notgood: Słabo
+  label_helpdesk_vote_comment_placeholder: Dodaj komentarz
+  label_helpdesk_submit: Wyślij
+  label_helpdesk_vote_thank: Dziękujemy za opinię
+  label_helpdesk_close_page: Zamknij stronę
+  label_helpdesk_contact_vote: Opinia kontaktu
   label_helpdesk_vote_comment: Vote comment
 
-  field_vote: Vote
-  field_vote_comment: Vote comment
+  field_vote: Głos
+  field_vote_comment: Komentarz
 
   # 3.0.2
   label_helpdesk_assign_contact_user: Przypisz do
@@ -177,25 +177,25 @@ pl:
   label_helpdesk_all: Wszystkie
 
   label_helpdesk_widget: Widget
-  label_helpdesk_widget_enable: Enable widget
-  label_helpdesk_widget_add_privacy_policy_checkbox: Add privacy policy checkbox
-  label_helpdesk_widget_privacy_policy_checkbox_text: Privacy policy checkbox text
-  label_helpdesk_widget_privacy_policy_input_placeholder: You can use wiki markup to add links
-  label_helpdesk_widget_available_projects: Available projects
-  label_helpdesk_widget_no_available_projects: You should have at least one project with enabled Helpdesk module for widget activation
-  label_helpdesk_widget_custom_fields: Available custom fields
-  label_helpdesk_widget_activation_message: Below code needs to add on page for widget activation
+  label_helpdesk_widget_enable: Włącz widget
+  label_helpdesk_widget_add_privacy_policy_checkbox: Dodaj checkbox z polityką prywatności
+  label_helpdesk_widget_privacy_policy_checkbox_text: Tekst checkboxa z polityką prywatności
+  label_helpdesk_widget_privacy_policy_input_placeholder: Użyj składni wiki markup, aby dodać linki
+  label_helpdesk_widget_available_projects: Dostępne projekty
+  label_helpdesk_widget_no_available_projects: Musisz mieć przynajmniej jeden projekt z aktywnym modułem Helpdesk, aby włączyć widget
+  label_helpdesk_widget_custom_fields: Dostępne pola niestandardowe
+  label_helpdesk_widget_activation_message: Kod widgetu
 
-  label_helpdesk_widget_name: Your name
-  label_helpdesk_widget_email: Email address
-  label_helpdesk_widget_subject: Subject
-  label_helpdesk_widget_description: Ticket description
-  label_helpdesk_widget_create_ticket: Create ticket
-  label_helpdesk_widget_file_large: 'Sorry, too large'
-  label_helpdesk_widget_ticket_created: Ticket was created
-  label_helpdesk_widget_ticket_errors: "Can't add message "
-  label_helpdesk_widget_ticket_error_details: details
-  label_helpdesk_widget_ticket_error_description: Description cannot be empty
+  label_helpdesk_widget_name: Twoje imię
+  label_helpdesk_widget_email: Adres e-mail
+  label_helpdesk_widget_subject: Temat
+  label_helpdesk_widget_description: Opis zgłoszenia
+  label_helpdesk_widget_create_ticket: Utwórz zgłoszenie
+  label_helpdesk_widget_file_large: 'Przepraszamy, plik jest za duży (max 10MB)'
+  label_helpdesk_widget_ticket_created: Zgłoszenie zostało utworzone
+  label_helpdesk_widget_ticket_errors: "Nie można dodać wiadomości "
+  label_helpdesk_widget_ticket_error_details: szczegóły
+  label_helpdesk_widget_ticket_error_description: Opis nie może być pusty
 
   label_helpdesk_reports: Raporty Helpdesk
   label_helpdesk_first_response_time: Czas pierwszej odpowiedzi
@@ -242,7 +242,7 @@ pl:
   label_helpdesk_days: dni
   label_helpdesk_autoclose_template: Szablon automatycznego zamknięcia
   label_helpdesk_autoclosed_ticket: Zgłoszenie zostało zamknięte automatycznie
-  label_helpdesk_cc_address: Odbiory w DW
+  label_helpdesk_cc_address: Odbiorcy w DW
 
   label_helpdesk_reply: Odpowiedz (e-mail)
 
@@ -291,7 +291,7 @@ pl:
   label_helpdesk_mail_rule_action_tags: Tagi
   label_helpdesk_mail_rule_action_issue_due_date: Data oddania
   label_helpdesk_mail_rule_action_issue_tracker: Typ zagadnienia
-  label_helpdesk_mail_rule_action_stop: Przestań przetwarzać przez reguły
+  label_helpdesk_mail_rule_action_stop: Nie przetwarzaj dalej przez reguły
   label_helpdesk_mail_rule_action_watchers: Obserwatorzy
 
   mail_rule_should_have_condition: Reguła powinna mieć przynajniej jeden warunek
@@ -307,10 +307,10 @@ pl:
   label_helpdesk_hide_read_marks: Ukryj potwierdzenia odczytania
   label_helpdesk_authentication_none: Brak
 
-  label_helpdesk_days_after: po
-  label_helpdesk_days_after_full: "%{days} dni po"
+  label_helpdesk_days_after: później
+  label_helpdesk_days_after_full: "%{days} dni poźniej"
 
   label_helpdesk_mail_rule_condition_for_all: Dla wszystkich wiadomości
   field_ticket_date: Data zgłoszenia
 
-  label_helpdesk_journal_conversation: Przebieg zgłoszenia
+  label_helpdesk_journal_conversation: Dziennik korespondencji
