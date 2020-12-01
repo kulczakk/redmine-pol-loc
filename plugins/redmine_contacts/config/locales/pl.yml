@@ -110,7 +110,7 @@ pl:
 
   notice_merged_warning: 'Wszystkie notki, projekty, tagi i zadania przydzielone do tej osoby zostaną przeniesione do wybranej poniżej. Kontakt zostanie usunięty.'
 
-  project_module_contacts: kontakty
+  project_module_contacts: Kontakty
 
   permission_view_contacts: Wyświetlanie kontaktów
   permission_edit_contacts: Edycja kontaktów
